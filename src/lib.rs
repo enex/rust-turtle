@@ -1,5 +1,7 @@
-#![allow(unstable)]
+#![allow(unused)]
+#![feature(collections)]
 #![feature(core)]
+#![feature(io)]
 use std::path::Path;
 use std::old_io as io;
 
