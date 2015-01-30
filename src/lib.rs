@@ -1,12 +1,9 @@
-#![feature(plugin)]
 #![allow(unstable)]
 #![feature(core)]
-#[plugin] extern crate peg_syntax_ext;
 use std::path::Path;
 use std::old_io as io;
 
 mod grammar;
-//peg_file! grammar("grammar.rustpeg");
 
 #[derive(PartialEq, Show)]
 pub enum Identifyer{
